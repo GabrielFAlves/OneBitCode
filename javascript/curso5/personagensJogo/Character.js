@@ -1,6 +1,6 @@
 module.exports = class Character {
-    constructor (name, pontosVida, pontosAtaque, pontosDefesa) {
-        this.name = name
+    constructor (nome, pontosVida, pontosAtaque, pontosDefesa) {
+        this.nome = nome
         this.pontosVida = pontosVida
         this.pontosAtaque = pontosAtaque
         this.pontosDefesa = pontosDefesa

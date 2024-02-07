@@ -1,8 +1,8 @@
 const Character = require("./Character")
 
 module.exports = class Mage extends Character {
-    constructor (pontosMagia) {
-        super(name, pontosVida, pontosAtaque, pontosDefesa)
+    constructor (pontosMagia, nome, pontosVida, pontosAtaque, pontosDefesa) {
+        super(nome, pontosVida, pontosAtaque, pontosDefesa)
         this.pontosMagia = pontosMagia
     }
     atacar (alvo) {

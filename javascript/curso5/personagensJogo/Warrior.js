@@ -1,8 +1,8 @@
 const Character = require("./Character")
 
 module.exports = class Warrior extends Character {
-    constructor (pontosEscudo, posicao) {
-        super(name, pontosVida, pontosAtaque, pontosDefesa)
+    constructor (pontosEscudo, nome, pontosVida, pontosAtaque, pontosDefesa) {
+        super(nome, pontosVida, pontosAtaque, pontosDefesa)
         this.pontosEscudo = pontosEscudo
         this.posicao = "ataque"
     }
